@@ -23,6 +23,5 @@ A user-movie matrix is generated using simulated user ratings. This matrix repre
 # Step 5: Calculate Similarity
 We calculate the cosine similarity between users based on their ratings in the user-movie matrix. This similarity matrix helps in identifying users with similar movie preferences.
 
-# Step 6
-: Implement Collaborative Filtering
+# Step 6: Implement Collaborative Filtering
 Using the similarity matrix, we identify the most similar users for a given user and predict ratings for movies that the user hasn't seen. Movies with the highest predicted ratings are recommended to the user.
