@@ -25,6 +25,8 @@ Suggests relevant research papers and collaborators (e.g., Google Scholar)
 This project aims to develop a personalized movie recommender system. The system leverages collaborative filtering techniques to provide movie suggestions tailored to individual user preferences and historical interactions. By analyzing user ratings and movie data, the recommender system can predict and suggest movies that users are likely to enjoy.
 Collaborative filtering is a technique used in movie recommender systems to suggest films to users based on the preferences and behaviors of similar users. 
 
+# Why use cosine similarity?
+
 # Why Collaborative Filtering?
 Compared to other methods like content-based filtering, which relies solely on movie features such as genre, director, and cast, collaborative filtering offers more diverse and unexpected recommendations, making the user experience better.
 Collaborative filtering can also handle large datasets effectively, making it suitable for platforms with extensive user and movie bases. 
