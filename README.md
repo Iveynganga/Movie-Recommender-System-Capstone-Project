@@ -29,7 +29,7 @@ Collaborative filtering is a technique used in movie recommender systems to sugg
 Cosine similarity is a metric used to measure the similarity between two vectors by calculating the cosine of the angle between them. 
 In the context of a movie recommender system, each movie can be represented as a vector of features, such as genres, actors, directors, or other characteristics.
 
-# 1.Vectorization of Features: 
+# 1. Vectorization of Features: 
 Movies can be represented as vectors, where each feature (e.g., genres, cast, production companies, popularity) is a component. Cosine similarity allows us to measure how "close" two movie vectors are in this high-dimensional space.
 
 # 2. Magnitude Independence: 
