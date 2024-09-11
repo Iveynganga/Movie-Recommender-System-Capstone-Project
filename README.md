@@ -55,20 +55,27 @@ It also adapts to changes in user preferences over time, ensuring recommendation
 
 # Methodology
 
-# Step 1: Fetch Movie Data
-Using the TMDB API, we fetch data for a set number of popular movies, including details such as movie IDs, titles, genres, ratings, and popularity.
+# Step 1: Loading of Data and Understanding the Dataset
 
-# Step 2: Create a Genre Map
-We create a mapping of genre IDs to genre names using the TMDB API, enabling easier interpretation and categorization of movies by genre.
+The first step is loading the data and understanding the dataset which involves reviewing the dataset's columns, types, and summary statistics to gain insights into the data.
 
-# Step 3: Fetch Multiple Movies
-We retrieve multiple pages of popular movies from TMDB and store relevant details in a structured format for further processing.
+# Step 2: Identify Key Attributes
+These are the most important features or columns that provide valuable information for analysis and model building.
 
-# Step 4: Create User-Movie Matrix
-A user-movie matrix is generated using simulated user ratings. This matrix represents user ratings for different movies, with users as rows and movies as columns.
+# Step 3: Data Preprocessing
+Data preprocessing involves cleaning, transforming, and organizing raw data into a format that can be effectively used for analysis and model building. Some of the steps include checking for missing values, encoding, feature engineering among others.
 
-# Step 5: Calculate Similarity
-We calculate the cosine similarity between users based on their ratings in the user-movie matrix. This similarity matrix helps in identifying users with similar movie preferences.
+# Step 4: EDA - Exploring the Dataset
+EDA involves visually and statistically exploring a dataset to uncover patterns, trends, and relationships.
 
-# Step 6: Implement Collaborative Filtering
-Using the similarity matrix, we identify the most similar users for a given user and predict ratings for movies that the user hasn't seen. Movies with the highest predicted ratings are recommended to the user.
+# Step 5: One-Hot Encoding
+This is a technique used to convert categorical variables into a numerical format that machine learning models can understand. This way, machine learning models can interpret categorical data without assuming any ordinal relationship between categories.
+
+# Step 6: Feature Scaling
+Scaling numeric features is necessary to ensure they are on the same scale.
+
+# Step 7: Cosine Similarity
+Cosine similarity is a metric used to measure how similar two vectors are, regardless of their magnitude. It calculates the cosine of the angle between two vectors, and the value ranges from -1 to 1
+
+# Step 8: Recommendation
+The recommendation part of the model involves calculating the similarity between movies based on certain features (such as genres, cast, crew, production companies, budget, and revenue) using cosine similarity. This process enables the system to suggest movies that are closely related in terms of content or characteristics, based on the selected features and the weights applied to each.
