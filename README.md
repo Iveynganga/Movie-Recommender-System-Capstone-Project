@@ -48,11 +48,6 @@ In collaborative filtering, user-item interaction data (like movie ratings) can 
 # 5. Effective for Sparse Data: 
 Movie datasets are often sparse, meaning that many features (like cast or genre) don't apply to every movie. Cosine similarity handles this sparseness well by focusing on non-zero dimensions.
 
-# Why Collaborative Filtering?
-Compared to other methods like content-based filtering, which relies solely on movie features such as genre, director, and cast, collaborative filtering offers more diverse and unexpected recommendations, making the user experience better.
-Collaborative filtering can also handle large datasets effectively, making it suitable for platforms with extensive user and movie bases. 
-It also adapts to changes in user preferences over time, ensuring recommendations remain relevant.
-
 # Methodology
 
 # Step 1: Loading of Data and Understanding the Dataset
