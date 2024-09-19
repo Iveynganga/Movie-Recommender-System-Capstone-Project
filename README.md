@@ -6,19 +6,19 @@ A recommender system is a type of information filtering system that provides per
   ## 1. E-commerce
 These systems suggest products to customers based on their browsing history and past purchases. A good example is Amazon.
 
-# 2. Streaming Services
+## 2. Streaming Services
 The systems recommend movies, TV shows, or music based on user preferences (e.g., Netflix, Spotify).
 
-# 3. Social Media
+## 3. Social Media
 The systems curate content feeds and suggest friends or groups (e.g., Facebook, Instagram)
 
-# 4. Online Advertising
+## 4. Online Advertising
 The systems display targeted ads based on user behavior and interests (e.g., Google Ads)
 
-# 5. News Websites
+## 5. News Websites
 The system recommends articles that match user interests (e.g., personalized news feeds)
 
-# 6. Academic Research
+## 6. Academic Research
 Suggests relevant research papers and collaborators (e.g., Google Scholar) 
 
 # Project Overview
