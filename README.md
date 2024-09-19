@@ -3,7 +3,7 @@
 # What is a recommender system?
 A recommender system is a type of information filtering system that provides personalized suggestions to users based on their preferences and behaviors. These systems are widely used to help users navigate through large amounts of data and find items that are most relevant to them. Recommender systems can be used in various sectors including:
 
-  1. E-commerce
+  ## 1. E-commerce
 These systems suggest products to customers based on their browsing history and past purchases. A good example is Amazon.
 
 # 2. Streaming Services
