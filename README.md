@@ -22,8 +22,7 @@ The system recommends articles that match user interests (e.g., personalized new
 Suggests relevant research papers and collaborators (e.g., Google Scholar) 
 
 # Project Overview
-This project aims to develop a personalized movie recommender system. The system leverages collaborative filtering techniques to provide movie suggestions tailored to individual user preferences and historical interactions. By analyzing user ratings and movie data, the recommender system can predict and suggest movies that users are likely to enjoy.
-Collaborative filtering is a technique used in movie recommender systems to suggest films to users based on the preferences and behaviors of similar users. 
+This project aims to develop a personalized movie recommender system. The system leverages cosine similarity techniques to provide movie suggestions tailored to individual user preferences and historical interactions. By analyzing user ratings and movie data, the recommender system can predict and suggest movies that users are likely to enjoy. Cosine similarity is a technique used in movie recommender systems to suggest films to users based on the similarity of their preferences to those of other users.
 
 # Problem Statement
 With an ever-growing library of movies available on various platforms, users often struggle to find content that matches their tastes. This project addresses the challenge by creating a personalized movie recommendation system. The goal is to enhance user experience by suggesting movies that they are likely to find appealing based on their past viewing history and the preferences of similar users.
