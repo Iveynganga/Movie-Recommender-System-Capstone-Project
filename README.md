@@ -58,11 +58,11 @@ The first step is loading the data and understanding the dataset which involves 
 # Step 2: Identify Key Attributes
 These are the most important features or columns that provide valuable information for analysis and model building.
 
-# Step 3: Data Preprocessing
-Data preprocessing involves cleaning, transforming, and organizing raw data into a format that can be effectively used for analysis and model building. Some of the steps include checking for missing values, encoding, feature engineering among others.
-
-# Step 4: EDA - Exploring the Dataset
+# Step 3: EDA - Exploring the Dataset
 EDA involves visually and statistically exploring a dataset to uncover patterns, trends, and relationships.
+
+# Step 4: Data Preprocessing
+Data preprocessing involves cleaning, transforming, and organizing raw data into a format that can be effectively used for analysis and model building. Some of the steps include checking for missing values, encoding, feature engineering among others.
 
 # Step 5: One-Hot Encoding
 This is a technique used to convert categorical variables into a numerical format that machine learning models can understand. This way, machine learning models can interpret categorical data without assuming any ordinal relationship between categories.
