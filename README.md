@@ -28,6 +28,8 @@ This project aims to develop a personalized movie recommender system. The system
 With an ever-growing library of movies available on various platforms, users often struggle to find content that matches their tastes. This project addresses the challenge by creating a personalized movie recommendation system. The goal is to enhance user experience by suggesting movies that they are likely to find appealing based on their past viewing history and the preferences of similar users.
 This project is also specific to movie streaming platforms that incorporate all the shows from various cable networks. It suggests movies and tv shows purely based on their similarity regardless of the network that airs the movie or the tv show.
 
+# Featured Notebooks
+https://colab.research.google.com/github/Iveynganga/Movie-Recommender-System-Capstone-Project/blob/main/MovieRecommenderProject.ipynb#scrollTo=MDTbR30_GGAM
 
 # What is Cosine Similarity?
 Cosine similarity is a metric used to measure the similarity between two vectors by calculating the cosine of the angle between them. 
