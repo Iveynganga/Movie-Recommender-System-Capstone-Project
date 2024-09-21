@@ -1,6 +1,6 @@
 # Movie-Recommender-System-Capstone-Project
 
-# What is a recommender system?
+# What is a Recommender System?
 A recommender system is a type of information filtering system that provides personalized suggestions to users based on their preferences and behaviors. These systems are widely used to help users navigate through large amounts of data and find items that are most relevant to them. Recommender systems can be used in various sectors including:
 
   ## 1. E-commerce
