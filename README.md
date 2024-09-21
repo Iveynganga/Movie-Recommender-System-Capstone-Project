@@ -77,3 +77,6 @@ Cosine similarity is a metric used to measure how similar two vectors are, regar
 
 # Step 8: Recommendation
 The recommendation part of the model involves calculating the similarity between movies based on certain features (such as genres, cast, crew, production companies, budget, and revenue) using cosine similarity. This process enables the system to suggest movies that are closely related in terms of content or characteristics, based on the selected features and the weights applied to each.
+
+# Next Steps - Deploying the Recommender System on Streamlit Dashboard
+The next phase of my project involves deploying the movie recommender system using Streamlit to create an interactive and user-friendly interface. Streamlit will allow users to input their preferences and view personalized movie recommendations in real-time.
